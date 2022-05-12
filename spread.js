@@ -1,4 +1,4 @@
-let lista = [1, 3, 4];
+let lista = [1, 3, 4]
 let listaIncluir = [2, 5]
 
 for (i = 0; i <= listaIncluir.length; i++) {
@@ -11,3 +11,6 @@ for (i = 0; i <= listaIncluir.length; i++) {
     }
 }
 console.log(lista)
+
+const listResult = [1, 2, ...listaIncluir, 5];
+console.log(listResult)
